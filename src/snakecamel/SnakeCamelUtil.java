@@ -1,7 +1,7 @@
 package snakecamel;
 
 public class SnakeCamelUtil {
-
+	
 	public static String snakeToCamelcase(String snake_case) {//スネークをキャメルにする
 		String[] words = snake_case.split("_",-1);//"_"で分割された単語をwords配列へ入れる
 		StringBuilder sb = new StringBuilder();
